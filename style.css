@@ -1,0 +1,18 @@
+h2{
+  text-align: center;
+}
+#productDecsc{
+  resize: none;
+}
+section{
+  width: 80%;
+  margin: auto;
+  border: solid;
+}
+.w-75{
+  margin: auto;
+}
+#btn{
+  text-align: center;
+  margin:20px 40%;
+}

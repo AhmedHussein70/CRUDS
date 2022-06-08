@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="icomoon/style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>learn JavaScript Eccomers</title>
+  </head>
+  <body id="body">
+    <section>
+      <h2 class="title">JavaScript CRUDS</h2>
+
+      <div class="w-75 mx-aut my-5">
+        
+        <div class="form-group">
+          <label for="productName">productName :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="productName"
+          />
+
+          <small class="text-muted">productName must be chars only</small>
+        </div>
+
+        <div class="form-group">
+          <label for="productPrice">productPrice :</label>
+          <input type="number" class="form-control" id="productPrice" />
+
+          <small class="text-muted">productPrice must be numbers only</small>
+        </div>
+
+        <div class="form-group">
+          <label for="productCategory">productCategory :</label>
+          <input type="text" class="form-control" id="productCategory" />
+
+          <small class="text-muted">productCategory must be numbers only</small>
+        </div>
+
+        <div class="form-group">
+          <label for="productDecsc">productDecsc :</label>
+          <textarea
+            type="text"
+            class="form-control"
+            id="productDecsc"
+          ></textarea>
+
+          <small class="text-muted">productDecsc must be numbers only</small>
+        </div>
+
+          <button class="btn btn-outline-info" id="btn">add Product</button>
+
+      </div>
+
+      <div class="w-75">
+        <label for="search"> Search By Product Name</label>
+          <input type="text" class="form-control"  placeholder="search"  id="search">
+      </div>
+
+      <table class="table text-center w-75 m-auto py-3">
+
+        <thead>
+            <th>index</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Dics</th>
+            <th>update</th>
+            <th>delete</th>
+        </thead>
+
+        <tbody id="tableBody">
+
+
+
+        </tbody>
+
+      </table>
+
+    </section>
+
+    <script src="main.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"
+    ></script>
+  </body>
+</html>
